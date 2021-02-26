@@ -4,9 +4,12 @@
 
 package.xml
 
+force-app/main/default/applications/AppBrand.app
+AppBrand.app
+force-app/main/default/applications/AppSwitcher.app
+# LWC Jest
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json
 
-# LWC Jest
 **/__tests__/**
