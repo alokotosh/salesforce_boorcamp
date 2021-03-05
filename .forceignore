@@ -6,7 +6,10 @@ package.xml
 
 force-app/main/default/applications/AppBrand.app
 AppBrand.app
-force-app/main/default/applications/AppSwitcher.app
+AppSwitcher.appMenu
+force-app/main/default/applications/AppSwitcher
+force-app/main/default/appMenus/*
+force-app/main/default/appMenus/AppSwitcher.appMenu
 # LWC Jest
 # LWC configuration files
 **/jsconfig.json
