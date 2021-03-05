@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Employees</fullName>
+    <columns>NAME</columns>
+    <columns>Internal_Number__c</columns>
+    <columns>Email__c</columns>
+    <columns>Phone__c</columns>
+    <columns>Practice_Unit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Employee__c.Internal</value>
+    </filters>
+    <label>Internal Employees</label>
+</ListView>

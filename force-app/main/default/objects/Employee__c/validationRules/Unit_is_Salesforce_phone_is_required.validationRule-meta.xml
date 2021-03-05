@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_is_Salesforce_phone_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL( Practice_Unit__c ,&apos;Salesforce&apos;), ISBLANK(Phone__c))</errorConditionFormula>
+    <errorDisplayField>Phone__c</errorDisplayField>
+    <errorMessage>For Salesforce practice, employee phone is mandatory</errorMessage>
+</ValidationRule>
